@@ -12,10 +12,11 @@ nltk.download('punkt')
 
 
 # === Load model and tools ===
-model = joblib.load("best_model_svm_final.pkl")
-vectorizer = joblib.load("tfidf_vectorizer.pkl")
-scaler = joblib.load("numeric_scaler.pkl")
-label_encoder = joblib.load("label_encoder.pkl")
+model = joblib.load("Model/best_model_svm_final.pkl")
+vectorizer = joblib.load("Model/tfidf_vectorizer.pkl")
+scaler = joblib.load("Model/numeric_scaler.pkl")
+label_encoder = joblib.load("Model/label_encoder.pkl")
+
 
 # === Known Side Effects and Keywords ===
 common_side_effects = [
